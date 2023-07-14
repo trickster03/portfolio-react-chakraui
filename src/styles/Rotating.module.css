@@ -1,0 +1,50 @@
+/* @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+  
+  .rotating_circle {
+    width: 200px;
+    height: 200px;
+    animation: rotate 5s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: 'tran(360%)';
+    position: relative;
+  }
+  
+  .wordContainer{
+    position: absolute;
+    width: '100%';
+    height: '100%';
+    top: '0';
+    left:'0';
+    animation: 'rotation 10s linear infinite';
+  }
+
+  .word1 {
+    position: 'absolute';
+    top: '50%';
+    left: '50%';
+    transform: 'rotate(-50% , -50%)';
+  }
+  /* .word2 {
+    position: absolute;
+    transform-origin: -50% -50%;
+    animation: rotate-reverse 5s linear infinite;
+  } */
+  
+  /* @keyframes rotate-reverse {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+   */

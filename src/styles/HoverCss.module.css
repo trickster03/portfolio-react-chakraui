@@ -1,0 +1,22 @@
+.icons {
+    background-color: transparent;
+    color: white;
+  }
+  .border {
+    background-color: transparent;
+    color: grey;
+  }
+  .border:hover{
+    color: #00FFAB;
+  }
+
+  .mail{
+    color: black;
+  }
+
+  .mailBox:hover{
+    background-color: #FFFAE7
+  }
+  .mailBox{
+    background-color: #00FFAB;
+  }

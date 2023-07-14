@@ -1,0 +1,10 @@
+
+.navicons{
+  color: grey;
+  margin: 18px;
+}
+
+.navicons:hover{
+  color: #00FFAB;
+  margin: 18px;
+}

@@ -1,0 +1,12 @@
+.bio{
+    top: 20px;
+    left: 20px;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    border-radius: 25px;
+    align-items: center;
+    width: 450px;
+    margin: -420px  ;
+}
